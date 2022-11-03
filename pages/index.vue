@@ -7,7 +7,11 @@
       <h1 class="text-md-h4 text-h6">Check these out</h1>
       <br />
       <ProductSlider :products="products" />
+      <br /><br />
+      <Newsletter />
+      <ScrollTop />
     </v-container>
+
     <Footer />
   </div>
 </template>
